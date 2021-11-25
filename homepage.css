@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display+SC:ital,wght@1,700&display=swap');
+
+html, body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Cinzel',serif;
+}
+
+main {
+    background-image: url("portfolio page 1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right center;
+
+    overflow: hidden;
+
+    width: 100vw;
+    height: 100vh;
+}
+
+nav { 
+    color:rgb(153, 141, 141);
+    height: 70px;
+    width: 100%;
+    display: flex;
+    padding: 5px, 0px;
+    font-size:20px;
+    font-family:'Cinzel',serif;
+    
+}
+
+nav h1 { /* Navbar Heading Text ("Dracula") */
+    padding: 5px;
+    margin-top: 0px;
+    margin-left: 17px;
+    font-family: 'Playfair Display SC', serif;
+    font-size:50px;
+}
+
+nav ul { /* Link List Styling */
+    padding: 0px, 0px, 0px, 1px;
+    list-style-type: none;
+    margin-top: 40px;
+    position: relative;
+    text-align:right;
+    display: flex;
+    align-items: center;
+    
+}
+
+nav ul li a{ /* Link Styling */
+    justify-content: space-between;
+    color:white;
+    text-shadow: 2px 2px 3px #000000;
+    text-decoration:none;
+    padding: 0 40px 0 0;
+    display: inline-block;
+    transition: all .15s ease-in-out;
+    
+}
+
+nav ul li a:hover {
+    color:rgb(153, 141, 141);
+    text-shadow: 3px 3px 6px #000000;
+    transform: scale(1.03);
+}
+
+.about-me{
+    color: white;
+    text-shadow: 2px 2px 3px #000000;
+    width: 50%;
+    font-size: 1rem;
+    padding-left: 30px;
+    padding-top: 30px;
+    box-sizing: border-box;
+}
