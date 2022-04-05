@@ -18,18 +18,18 @@ body {
     gap: 16px;
 }
 
-.heading h1{
+.heading h1 {
     font-family: 'Homemade Apple', cursive;
     font-size: 30px;
-    margin: 0px ;
+    margin: 0px;
 }
 
 .heading h3 {
     font-size: 14px;
     text-align: justify;
-    margin: 0px ;
+    margin: 0px;
     padding: 24px 0 0 0;
-    
+
 }
 
 .heading nav ul {
@@ -40,11 +40,11 @@ body {
     margin: 2px;
 }
 
-.heading nav ul li a{
-        text-decoration: none;
-        color: #EE6352;
-        font-weight: bold;
-        transition: color ease-in-out 0.2s;
+.heading nav ul li a {
+    text-decoration: none;
+    color: #EE6352;
+    font-weight: bold;
+    transition: color ease-in-out 0.2s;
 
 }
 
@@ -55,6 +55,7 @@ body {
 .spacer {
     flex-grow: 1;
 }
+
 .social {
     display: flex;
     font-size: 30px;
@@ -92,7 +93,7 @@ footer p {
 
 .info a {
     text-decoration: none;
-    color:#EE6352;
+    color: #EE6352;
 }
 
 footer a {
@@ -109,7 +110,7 @@ footer a {
     display: none;
     position: absolute;
     background-color: #ffffff;
-    border-left:#EE6352 solid 2px;
+    border-left: #EE6352 solid 2px;
     margin-left: 8px;
     margin-top: 2px;
     min-width: 160px;
@@ -130,6 +131,23 @@ footer a {
 }
 
 .dropdown-content a:hover {
-    color:#9B2E2E;
+    color: #9B2E2E;
 }
 
+fieldset,
+input,
+select,
+textarea {
+    margin: 1% 2% 2% 2%;
+}
+
+form {
+    display: grid;
+    grid-template-columns: auto auto;
+    align-content: center;
+    margin: 10px;
+}
+
+input {
+    padding: 10px
+}

@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/styles.css">
     <script src="https://kit.fontawesome.com/f68302a3ea.js" crossorigin="anonymous"></script>
-    <title>HALOHOLIC: Portfolio Template</title>
+    <title>HALOHOLIC: Contact</title>
 </head>
 
 <body>
@@ -16,7 +16,7 @@
         <nav>
             <h3 class="caption">illustration. digital painting. graphic design.</h3>
             <ul>
-                <li><a href="about.html"><i class="fa-solid fa-user"></i> about</a></li>
+                <li><a href="index.html"><i class="fa-solid fa-user"></i> about</a></li>
                 <div class="dropdown">
                     <li><a href="portfolio.html" class="drop"><i class="fa-solid fa-palette"></i> portfolio</a></li>
                     <div class="dropdown-content">
@@ -40,7 +40,20 @@
     </div>
 
     <main>
+        <p>Please feel free to contact me regarding any inquiries
+            about personal work, commission work, or general questions
+            regarding my works.
+        </p>
 
+        <form action:"mailto:haloholicart@gmail.com" method="post" id="emailing" class="">
+            <input name="email" type="email" placeholder="Email *" required pattern="^.+@.+\.[a-zA-Z]{2,63}$"
+                max-length="250">
+            <input name="subject" type="text" placeholder="Subject">
+            <textarea placeholder="Message" rows="10″ cols=" 50″>
+            </textarea>
+
+        </form>
+        <input type="submit" id="submit" value="Submit" class="btn">
     </main>
 
 </body>
