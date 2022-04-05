@@ -134,20 +134,57 @@ footer a {
     color: #9B2E2E;
 }
 
-fieldset,
-input,
-select,
-textarea {
-    margin: 1% 2% 2% 2%;
+.inquiry {
+    font-size: 15px;
+    text-align: justify;
+    margin: 10px;
+    text-align: center;
+    padding-top: 10px;
 }
+
 
 form {
-    display: grid;
-    grid-template-columns: auto auto;
-    align-content: center;
+    display: flex;
+    flex-direction: column;
     margin: 10px;
+    align-items: center;
+    gap: 12px;
+    padding: 30px;
 }
 
-input {
-    padding: 10px
+.email-sub {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 45px;
+    /* display: flex; */
+    /* position: relative; */
+    /* justify-content: center; */
+}
+
+.email-message {
+    display: block;
+    /* position: relative; */
+    /* justify-self: center; */
+}
+
+input,
+textarea {
+    padding: 5px;
+    font-family: 'Karla', sans-serif;
+}
+
+#submit {
+    background-color: #EE6352;
+    color: #ffffff;
+    border: none;
+    border-radius: 6px;
+    width: 10%;
+    font-family: 'Karla', sans-serif;
+    font-weight: bold;
+    transition: background-color ease-in-out .2s;
+}
+
+#submit:hover {
+    background-color: #9B2E2E;
 }

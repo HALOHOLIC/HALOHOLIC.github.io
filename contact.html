@@ -40,20 +40,21 @@
     </div>
 
     <main>
-        <p>Please feel free to contact me regarding any inquiries
-            about personal work, commission work, or general questions
-            regarding my works.
-        </p>
+        <hr>
+        <h4 class="inquiry">Have any questions regarding my work, commissions, or just have general inquiries?
+            Please feel free to contact me!
+        </h4>
 
         <form action:"mailto:haloholicart@gmail.com" method="post" id="emailing" class="">
-            <input name="email" type="email" placeholder="Email *" required pattern="^.+@.+\.[a-zA-Z]{2,63}$"
-                max-length="250">
-            <input name="subject" type="text" placeholder="Subject">
-            <textarea placeholder="Message" rows="10″ cols=" 50″>
-            </textarea>
+            <div class="email-sub">
+                <input name="email" type="email" placeholder="Email *" required pattern="^.+@.+\.[a-zA-Z]{2,63}$"
+                    max-length="250">
+                <input name="subject" type="text" placeholder="Subject">
+            </div>
+            <textarea class="email-message" placeholder="Message" rows="10" cols="50"></textarea>
 
+            <input type="submit" id="submit" value="Submit" class="btn">
         </form>
-        <input type="submit" id="submit" value="Submit" class="btn">
     </main>
 
 </body>
