@@ -157,15 +157,10 @@ form {
     flex-direction: row;
     align-items: center;
     gap: 45px;
-    /* display: flex; */
-    /* position: relative; */
-    /* justify-content: center; */
 }
 
 .email-message {
     display: block;
-    /* position: relative; */
-    /* justify-self: center; */
 }
 
 input,
